@@ -5,7 +5,7 @@ pipeline {
 
         stage('Run Batch Script') {
             steps {
-                bat 'test_batch.bat' 5
+                bat 'test_batch.bat 5'
             }
         }
     }
